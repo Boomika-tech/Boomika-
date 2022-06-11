@@ -25,9 +25,9 @@ document.addEventListener('click',function(e){
     });
     function color_change(){
       tile=(1+Math.floor(Math.random()*16)).toString();
-      document.getElementById(tile).style.backgroundColor="orange";
+      document.getElementById(tile).style.backgroundColor="white";
       setTimeout(function(){
-        document.getElementById(tile).style.backgroundColor="white";
+        document.getElementById(tile).style.backgroundColor="black";
       },500);
       a_o.push(tile);
       temp_a_o=a_o;
